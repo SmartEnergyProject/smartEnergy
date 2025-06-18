@@ -5,3 +5,7 @@ controllers:
 home:
     path: /
     controller: App\Controller\IndexController::index
+
+login:
+    path: /login
+    controller: App\Controller\LoginController::login
