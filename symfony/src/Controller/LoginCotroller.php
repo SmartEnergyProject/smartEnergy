@@ -8,7 +8,7 @@ require_once realpath(__DIR__ . '/../../config/db.php');
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-class IndexController extends AbstractController{
+class LoginCotroller extends AbstractController{
     public function index(): Response {
         $contents = $this->renderView('home/index.html.twig');
         if (!$contents) {

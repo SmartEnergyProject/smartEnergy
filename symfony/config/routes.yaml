@@ -2,6 +2,6 @@ controllers:
     resource: ../src/Controller/
     type: attribute
 
-index:
-    path: /index
+home:
+    path: /
     controller: App\Controller\IndexController::index
