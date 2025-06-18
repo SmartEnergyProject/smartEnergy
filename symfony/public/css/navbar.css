@@ -1,0 +1,20 @@
+.navbar {
+  overflow: hidden;
+  display: flex;
+  justify-content: right;
+  padding: 5px 0;
+}
+
+.navbar a {
+  color: black;
+  padding: 6px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: rgb(66, 65, 65);
+  text-decoration: underline;
+}
