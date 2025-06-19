@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Controller;
-require_once realpath(__DIR__ . '/../../config/db.php');
 
 
 
